@@ -49,7 +49,7 @@ GO111MODULE = on
 # ====================================================================================
 # Setup Images
 
-DOCKER_REGISTRY ?= crossplane
+DOCKER_REGISTRY ?= europe-north1-docker.pkg.dev/artifacts-352708/mt-images/
 IMAGES = provider-jet-gcp provider-jet-gcp-controller
 -include build/makelib/image.mk
 
