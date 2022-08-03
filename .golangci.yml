@@ -107,7 +107,6 @@ linters:
     - megacheck
     - govet
     - gocyclo
-    - gocritic
     - interfacer
     - goconst
     - goimports
